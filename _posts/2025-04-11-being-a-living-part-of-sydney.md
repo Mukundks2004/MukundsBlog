@@ -9,6 +9,7 @@ image:
 ---
 
 > We are as much the universe as a neutron star, or a black hole, or a nebula
+
 - [Kurzesagt, in a Nutshell](https://youtu.be/MBRqu0YOH14?si=_JuW1WwDfNhWJoSa&t=280)
 
 ## What is Sydney?
