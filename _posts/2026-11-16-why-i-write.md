@@ -2,20 +2,20 @@
 title: Why I Write
 date: 2024-12-18 17:00:00 +1100
 
-categories: [Misc]
-tags: [misc]
+categories: [Reflective]
+tags: [reflective,george-orwell,orwell,write,history,writing,blogging,blog,meta,philosophy,philosophy-of-writing,advanced-english,english,hsc]
 image:
     path: "https://bestselfmedia.com/wp-content/uploads/2017/12/aaron-burden-64849.jpg"
 ---
 
-In year 12 Advanced English we studied George Orwell's text, *Why I Write*. In it, Orwell discusses the four great motives for writing that he argues exist in every writer. They  are (summary lifted from the Wikipedia):
+In year 12 Advanced English we studied George Orwell's text, [*Why I Write*](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/). In it, Orwell discusses the four great motives for writing that he argues exist in every writer. They are:
 
-- Sheer egoism: writing from a "desire to seem clever, to be talked about, to be remembered after death, to get your own back on grown-ups who snubbed you in childhood, etc."
-- Aesthetic Enthusiasm: To create a piece of art having "pleasure in the impact of one sound on another, in the firmness of good prose or the rhythm of a good story."
-- Historical Impulse: a "desire to see things as they are, to find out true facts and store them up for the use of posterity."
-- Political purpose: Orwell argues that "no book is genuinely free from political bias" and cites that all people have a "desire to push the world in a certain direction" even going so far as to say that "the opinion that art should have nothing to do with politics is itself a political attitude."
+1) Sheer Egoism: writing from a "desire to seem clever, to be talked about, to be remembered after death, to get your own back on grown-ups who snubbed you in childhood, etc."
+2) Aesthetic Enthusiasm: To create a piece of art having "pleasure in the impact of one sound on another, in the firmness of good prose or the rhythm of a good story."
+3) Historical Impulse: a "desire to see things as they are, to find out true facts and store them up for the use of posterity."
+4) Political Purpose: Orwell argues that "no book is genuinely free from political bias" and cites that all people have a "desire to push the world in a certain direction" even going so far as to say that "the opinion that art should have nothing to do with politics is itself a political attitude."
 
-I feel disappointed I didn't absorb the main message on my first reading, because I largely agree with Orwell's thesis and learning about it earlier would have noticeable changed my writing. I've distill the proposition down to the following mnemonic:
+I feel disappointed I didn't absorb the main message on my first reading, because I largely agree with Orwell. Learning this earlier would have noticeably changed my writing. I've distill the proposition down to the following mnemonic:
 
 The three motives are to
 1) Show (what you've made) - point #1
