@@ -93,14 +93,16 @@ public class Equal<a, b>
 }
 ```
 
-> The power in `=` comes from the complexity of `a`, it comes from the domain of values `a` and `b` can take on. In C# they are limited to 'simple' types of kind `Type` while in dependently typed languages they can be arbitrarily complex. In C# we also can't use the fact the code will compile as a guarantee/proof to write more maths. In a dependently typed language, we *can* and *do* use this fact at compile time- this is the basis for proving multiple theorems that rely on each other.
+> The power in `=` is inherited from `a`, it comes from the domain of values `a` and `b` can take on. In C# they are limited to 'simple' types of kind `Type` while in dependently typed languages they can be arbitrarily complex. In C# we also can't use the fact the code will compile as a guarantee/proof to write other code. In a dependently typed language, we *can* and *do* use this fact at compile time- this is the basis for proving multiple theorems that rely on each other.
 {: .prompt-info }
 
-The definition of `=` is what separates our "trivial" type `TwoPlusTwoEqualsFour`, or a function that returns an `Int` from a proposition that has meaning. We build the type from the ground up in a way that is consistent with how logical propositions are constructed in first order logic. Propositions need not be of the form $$a = b$$, they can look like $$a \implies b$$, or $$a \wedge b$$ and there are similar type constructors to build these propositions, all of which have meaning as decided by the definition of the appropriate type constructor. How do we prove these propositions? We must construct an element of the right type.
+The definition of `=` is what separates our "trivial" type `TwoPlusTwoEqualsFour`, or a function that returns an `Int` from a proposition that has meaning. We build the type from the ground up in a way that is consistent with how logical propositions are constructed in first order logic. Propositions need not be of the form $$a = b$$, they can look like $$a \implies b$$, or $$a \wedge b$$. There are similar type constructors to build these propositions, all of which have meaning as decided by the definition of the appropriate type constructor. How do we prove these propositions? We must construct an element of the right type.
 
 The sole data constructor for `=` is `Refl`, standing for the reflexive property of equality- the idea that all terms (types are terms too) are definitionally equal to themselves. `Refl` takes one argument, `x`, and produces a term of the type `x = x`. Using the `Refl` data constructor, we can create trivial proofs that terms are equal to themselves. `Refl` only accepts one parameter and proves it is equal to itself so it definitively only proves correct theorems. `Refl` implicitly uses the first parameter's type- calling `Refl` for `a = b` will create an instance of `a = a`, but the compiler realises (via type inference) that this needs to be equal to `a = b` for the function to type check. If `a` is not the same as `b` this will not be possible, our statically typed programming language won't let us promise to return `a = b` but then return `a = a`. All the features of the dependently typed language are working together.
 
 We are finally ready to prove our first theorem.
+
+## Our First Theorem
 
 ```haskell
 twoPlusTwoEqFour : 2 + 2 = 4
@@ -110,12 +112,15 @@ twoPlusTwoEqFour = Refl
 That's the proof. Here is a breakdown of how this works:
 - The above is a function named twoPlusTwoEqFour
 - It declares it will return an element of type `2 + 2 = 4`
+    - This declaration 'dumbly' references the preexisting `2` without understanding it semantically
+    - `2` and `4` are defined inductively by [`Nat`](https://lean-lang.org/doc/reference/latest/Basic-Types/Natural-Numbers/) with some optimisations to make computation faster by leveraging native integer arithmetic
+    - We are able to use the compile time definition of `+` to refer to `2 + 2` as an entity even though it has not been evaluated
 - We can only create an element of the equality type using `Refl`
 - The function invokes `Refl` which will implicitly take the `lhs` as a parameter to construct an element of equality. 
 - The `lhs` is `2 + 2`
 - `Refl` constructs an element of type `2 + 2 = 2 + 2`
-- The type `2 + 2 = 2 + 2` is equivalent to the type `4 + 4` (dependently typed programming languages have a huge set of methods to check/verify that types are equivalent)
-- The expected return type is equivalent to the type `4 + 4`
+- The type `2 + 2 = 2 + 2` is equivalent to the type `4 = 4` (dependently typed programming languages have a huge set of methods to check/verify that types are equivalent)
+- The expected return type is equivalent to the type `4 = 4`
 - We have shown that the proposition `2 + 2 = 4` is inhabited. Therefore `2 + 2 = 4`
 - Q.E.D.
 
