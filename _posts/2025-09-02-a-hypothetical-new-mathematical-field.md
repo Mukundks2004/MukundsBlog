@@ -8,7 +8,7 @@ image:
     path: https://imgur.com/pJgGwFS.png
 ---
 
-For the longest time have wanted to invent my own math. The way this typically goes is someone works their way to the edge of human knowledge through the years of research and study undergone through years of research and finally pushes that boundary back slightly by earning a PhD. In a small fraction of these cases, the existing tools are insufficient to establish the thesis in a meaningful way- and so new tools must be created.
+For the longest time have wanted to invent my own math. The way this typically goes is someone works their way to the edge of human knowledge through the years of research and study, and finally pushes that boundary back slightly by earning a PhD. In a small fraction of these cases, the existing tools are insufficient to establish the thesis in a meaningful way. And so new tools must be created.
 
 I'm many years away from this, but I still fantasise. I would like to present a collection of thoughts in which I pose a problem and an innovative tool for solving it. Please note this is technically unfounded- my purpose is to expose my thought process when breaking down this problem.
 
