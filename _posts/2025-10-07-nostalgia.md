@@ -8,7 +8,7 @@ image:
     path: https://binaries.pirelli.com/2023/12/06/162314307-1fbffcbb-73e9-4d7a-85a7-08ac6713f574.jpg
 ---
 
-Here is my top playlist from 2024. It is titled "Ice cream and hugs" because of a memorable evening when I assembled it from that week's discover weekly.
+Here is my top playlist from 2024. It is titled *Ice cream and hugs* because of a memorable evening when I assembled it from that week's discover weekly.
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6qYuHrgw8zYZdfCinb77KW?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -16,9 +16,9 @@ My favourite songs are all associated with important times in my life and import
 
 It's not that hard to form such an association, all it takes is a little bit of emotion, a change of pace, new environment, music that plays just one more time to make you take note of it and possibly someone to enjoy it with. You can bond with a song over a summer of working evenings at the shop or just one rainy night after a 9pm lecture.
 
-The nostalgia characteristic of these memories grow uncontrollably over time, like a forgotten pokemon in your deck that is occasionally drip fed a couple xp. The pokemon is your lived experience. I try to have novel, fulfilling experiences so that over time it appreciates to a 'core memory' sized memory. Analogous to choosing a promising starter pokemon. The principle being a foundationally sound asset is a good investment. But the truth is, nostalgia does not care for the quality of the memory you start with. It will tint everything rose regardless, grow value relentlessly and tirelessly.
+The nostalgia characteristic of these memories grow uncontrollably over time, like a forgotten pokemon in your deck that is occasionally drip fed a couple xp. The pokemon is your lived experience. I try to have novel, fulfilling experiences so that over time they appreciate to 'core memory' sized memories. Analogous to choosing a promising starter pokemon. The principle being a foundationally sound asset is a good investment. But the truth is, nostalgia does not care for the quality of the memory you start with. It will tint everything rose regardless, grow value relentlessly and tirelessly.
 
-For large parts of last year I was miserable, I stayed up late working on too many things and I didn't feel like I was living at all just working endlessly. I even deliberately called my spotify wrapped "the quiet year" because of how underwhelming it all was, in November.
+For large parts of last year I was miserable, I stayed up late working on too many things and I didn't feel like I was living at all just working endlessly. I even deliberately called my spotify wrapped 'The Quiet Year' because of how underwhelming it all felt in November.
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2uwx53teAyvho2m4kSgptE?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
