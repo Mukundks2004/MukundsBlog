@@ -30,7 +30,7 @@ Unfortunately, it is a trivial consequence of Rice's theorem, which tells us tha
 
 ## Basics of Optimization
 
-In highschool we study calculus and learn that a function of a variable that varies continuously and is differentiable, e.g. $$f(x) = x^2 + 12x + 38$$, can be optimized to find a single, concrete, provably minimum value for $$x$$. For a student that has not yet learnt calculus, the task of "optimisation" may sound incredibly difficult as $$x$$ can be any value on the continuum. There are uncountably many options! It is easy to see how this could seem impossible. And yet for anyone that has completed highschool mathematics, it is trivial.
+In high school we study calculus and learn that a function of a variable that varies continuously and is differentiable, e.g. $$f(x) = x^2 + 12x + 38$$, can be optimized to find a single, concrete, provably minimum value for $$x$$. For a student that has not yet learnt calculus, the task of "optimisation" may sound incredibly difficult as $$x$$ can be any value on the continuum. There are uncountably many options! It is easy to see how this could seem impossible. And yet for anyone that has completed high school mathematics, it is trivial.
 
 Our student may then go on to study physics and learn the concept of a functional- a way to assign a numeric quantity to a function such that we can extremise not just a function but a family of functions. For example, finding the function with the shortest path from the point $$(0, 0)$$ to the point $$(1, 0)$$ on the cartesian plane.
 
