@@ -5,7 +5,7 @@ order: 4
 
 My name is Mukund. Welcome to my blog!
 
-I started this blog in 2024 as a way to write about my degree. Very quickly I learnt that I love blogging. Degree-specific content took a back seat and I started exploring other blogging genres such as personal blogging, book reviews, and technical articles. I've since written about maths, programming, university, my work, and my personal philosophy.
+I started this blog in 2024 as a way to write about my degree. I learnt very quickly that I love blogging. Degree-specific content took a back seat and I started exploring other blogging genres such as personal blogging, book reviews, and technical articles. I've since written about maths, programming, university, my work, and my philosophies.
 
 ## About Me
 
