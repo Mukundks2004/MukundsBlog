@@ -1,5 +1,5 @@
 ---
-title: My Experience In The IDeA Cadetship
+title: My Experience in the IDeA Cadetship
 date: 2025-09-27 19:00:00 +1000
 
 categories: [University]
