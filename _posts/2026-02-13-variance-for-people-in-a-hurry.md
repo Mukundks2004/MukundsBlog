@@ -8,7 +8,7 @@ image:
     path: https://cdn.britannica.com/63/131163-050-34ADE55B/coloration-patterning-phenotypes.jpg
 ---
 
-In 2024 I wrote [my first post on this blog](https://mukunds.blog/posts/what-is-the-co-in-covariant/), on variance. Rereading it I think there is much that can be improved and the whole thing can be shortened, so here it is.
+In 2024 I wrote [my first post on this blog](https://mukunds.blog/posts/what-is-the-co-in-covariant/), on variance. I think there is much that can be improved and the whole thing can be shortened, so here it is.
 
 ## Requirements
 
@@ -88,5 +88,3 @@ But only interfaces and delegates can be annotated as such, because stateful typ
 Without annotations, all type constructors are invariant by default.
 
 What is an example that is bivariant? Anything not generic, trivially, although C# doesn't officially support annotating generics to denote them as bivariant.
-
-Lack of conclusion.

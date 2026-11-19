@@ -2,7 +2,7 @@
 title: "The Irony of Friendship"
 date: 2026-10-20 1:30:00 +1100
 
-categories: [Misc]
+categories: [Reflective]
 tags: [friends,friendship,irony,paradox,social-commentary]
 image:
     path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFimzew8wYG17EC6vQixlNcR3vebDFaatnw8uUUQsa7PL2HPmkGKyKLis&s=10"

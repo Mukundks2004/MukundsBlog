@@ -1,4 +1,21 @@
-# Things I can blog about
+# TODOs
+
+- add pic of mim ouraborous
+- add pic of rover to roseworthy
+
+## Articles
+
+- chess Markov chain for real life, forcing people into an option, every person is a chess engine
+- kalman filter and bayesian analysis, for how miriam toews can write about characters bigger than her
+- small story in a bigger context e.g. rainworld in the larger story, akira, etc. not just a universe, but the larger story is embedded in the smaller story
+- there is a sweet spot between not wanting to do something and being in a frenzy
+  - at work people burning out because every weekend
+  - sometimes people not motivated
+  - how can you like something but not like it too much?
+  - talk about electronics, slowly improving my program
+  - some peoples sustained pace is faster or slower than mine
+
+## Things I can blog about
 
 - UTS vs UNSW vs USYD comp Sci + choosing a uni, factors to consider, my experiences
 - Why I code
@@ -6,7 +23,7 @@
 - Teaching as a noble act
 - Picking a team work/uni
 
-# Categories
+## Categories
 
 - Uni
 - Cadet life
@@ -14,7 +31,7 @@
 - Technical
 - Misc
 
-# Type Theory Series
+## Type Theory Series
 
 - how it is useful
 
@@ -34,7 +51,7 @@
   - spaces are types, terms are points in that space, equality is a path and there is a path space/identity type etc
 
   - what does it mean for TT to model something (the problem with GTT)
-  - https://math.stackexchange.com/questions/3967700/in-what-sense-does-homotopy-type-theory-model-types-as-spaces
+  - `https://math.stackexchange.com/questions/3967700/in-what-sense-does-homotopy-type-theory-model-types-as-spaces`
   - what is univalence, infinity groupoids, why does HoTT work
   - anything about denotational semantics would come here
 
