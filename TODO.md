@@ -8,6 +8,7 @@
 - fix errors on build
 - turn todo.md from `-` to `[]`
 - confirm that sitemap, robots.txt, crawling, `<>` tags in the header with strings, all of that is up to date and in the readme.md and google account is linked
+- make sure all files are edited by initial commit or by a PR with a verified commit and a # and a PR link.
 
 ## Songs
 - we could be more than just part time lovers
