@@ -11,7 +11,13 @@
 - make sure all files are edited by initial commit or by a PR with a verified commit and a # and a PR link.
 
 ## Songs
+
+This is just a collection of songs
+
 - we could be more than just part time lovers
+- hungry like the wolf
+- karma chameleon
+- brooklyn baby
 
 ## Articles Ideas
 
