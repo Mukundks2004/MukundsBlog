@@ -2,6 +2,9 @@
 
 - add pic of mim ouraborous
 - add pic of rover to roseworthy
+- make tagline capitalised
+- fix readme
+- update to latest ruby and jekyll- does this make `--exclude _posts` work?
 
 ## Articles
 
