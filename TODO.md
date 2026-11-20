@@ -1,12 +1,17 @@
-# TODOs
+# TODO
 
 - add pic of mim ouraborous
 - add pic of rover to roseworthy
 - make tagline capitalised
-- fix readme
+- fix readme -> put commands for building, workflows, etc. remove stuff that should be in "about" or "why i write" (fyi this file can be disorganised)
 - update to latest ruby and jekyll- does this make `--exclude _posts` work?
+- fix errors on build
+- turn todo.md from `-` to `[]`
 
-## Articles
+## Songs
+- we could be more than just part time lovers
+
+## Articles Ideas
 
 - chess Markov chain for real life, forcing people into an option, every person is a chess engine
 - kalman filter and bayesian analysis, for how miriam toews can write about characters bigger than her
