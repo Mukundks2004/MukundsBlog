@@ -7,6 +7,7 @@
 - update to latest ruby and jekyll- does this make `--exclude _posts` work?
 - fix errors on build
 - turn todo.md from `-` to `[]`
+- confirm that sitemap, robots.txt, crawling, `<>` tags in the header with strings, all of that is up to date and in the readme.md and google account is linked
 
 ## Songs
 - we could be more than just part time lovers
