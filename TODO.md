@@ -21,6 +21,8 @@ This is just a collection of songs
 
 ## Articles Ideas
 
+- how empty perth is all the time
+- holiday vs vacation
 - chess Markov chain for real life, forcing people into an option, every person is a chess engine
 - kalman filter and bayesian analysis, for how miriam toews can write about characters bigger than her
 - small story in a bigger context e.g. rainworld in the larger story, akira, etc. not just a universe, but the larger story is embedded in the smaller story
