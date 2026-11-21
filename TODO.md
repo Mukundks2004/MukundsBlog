@@ -9,6 +9,7 @@
 - turn todo.md from `-` to `[]`
 - confirm that sitemap, robots.txt, crawling, `<>` tags in the header with strings, all of that is up to date and in the readme.md and google account is linked
 - make sure all files are edited by initial commit or by a PR with a verified commit and a # and a PR link.
+- whats the command to generate just drafts or just one post (not most recent) and what does increment do and how can i speed up the building
 
 ## Songs
 
