@@ -21,7 +21,7 @@ The college environment is the perfect combination of everything a person could 
 - Everyone has achievable goals that have been set for you, gradually increasing in difficulty and culminating in a 'final' goal: graduation.
 
 
-These aspects of college are more than just things to be grateful for. Together, they compromise a wholesome life!
+These aspects of college are more than just things to enjoy. Together, they compromise a wholesome life!
 
 When you graduate, one by one, they all fall away. The physical immediacy of your social circle is replaced by a lonely commute to work, instead of having a social calendar prepared for you, it is on you to create your own framework to make friends, instead of a clear finish line and unambiguous purpose, there are big open questions about life and meaning, and no-one is offering advice, suggesting you stay on your post-college path, or prompting you to do something different which can leave you lost. As Molly McAdam says, the "novelty flatlines into mundane routine". This might not hit you all at once. You might lose friends gradually and find yourself questioning your direction more and more with each passing day. When you finally reminisce years later, it isn't hard to trace each perceived deficit to a source.
 
