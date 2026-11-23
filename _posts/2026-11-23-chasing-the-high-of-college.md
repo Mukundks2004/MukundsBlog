@@ -3,7 +3,7 @@ title: Chasing the High of College
 date: 2026-11-23 21:00:00 +1100
 
 categories: [University]
-tags: [reflection,uni,university,college,college-life,happiness,goals,life,advice,life-advice,fulfillment]
+tags: [reflection,uni,university,college,college-life,happiness,goals,life,advice,life-advice,fulfillment,philosophy,psychology,young,young-person]
 image:
     path: "https://www.rochester.edu/newscenter/wp-content/uploads/2015/07/fea-campus-social-life1.jpg"
 ---
@@ -25,14 +25,14 @@ These aspects of college are more than just things to be grateful for. Together,
 
 When you graduate, one by one, they all fall away. The physical immediacy of your social circle is replaced by a lonely commute to work, instead of having a social calendar prepared for you, it is on you to create your own framework to make friends, instead of a clear finish line and unambiguous purpose, there are big open questions about life and meaning, and no-one is offering advice, suggesting you stay on your post-college path, or prompting you to do something different which can leave you lost. As Molly McAdam says, the "novelty flatlines into mundane routine". This might not hit you all at once. You might lose friends gradually and find yourself questioning your direction more and more with each passing day. When you finally reminisce years later, it isn't hard to trace each perceived deficit to a source.
 
-There is a motivation behind examining this effect in detail: essentially 100% of this is possible to reverse-engineer and recreate inorganically. Not just for those that peaked in college, or (us) commuters that had access to some parts but not others, but essentially any of us young people that live and work in society. We all deserve a happy and exciting life.
+There is a motivation behind examining this effect in detail: essentially 100% of this is possible to reverse-engineer and recreate inorganically. Not just for those that peaked in college, or (us) commuters that had access to some parts but not others, but any young people that live and work in society. We all deserve a happy and exciting life.
 
-Surrounding yourself with other young people is just a matter of being the sort of person that attracts other young people (because aside from a 100-person country town, there will always be other young people around).
+Surrounding yourself with other young people is just a matter of being the sort of person that attracts others (because aside from a 100-person country town, there will always be people your age around).
 
 Structure and novelty are both byproducts of having a lifestyle that you are in control of, being able to modulate how rigid or flexible you want to be.
 
-Psychological freedom is, well, psychological, that should speak for itself.
+Psychological freedom is, well, psychological. That should speak for itself.
 
 And achievable goals and progression, potentially the most vague and hard-to-define item on the list, doesn't have to be more complex than exploring the world, finding things you enjoy and are fulfilled by, and making them your priorities.
 
-Most college students spend their years unthinkingly hiking up the college mountain (or sliding down it, if you have that kind of major). And that is a totally fine way to enjoy all of the above, if that is your end goal. But it certainly is not the only way, nor is it the best. Don't think of all of this as a 'college substitute'. Because while it is served to you on a silver platter, it is nothing more than circumstancial and temporary- your turn on the ride. Instead, I'd argue that the focused and deliberate approach to chasing the high is simply a more sustainable approach to being happy.
+Most college students spend their years unthinkingly hiking up the college mountain (or sliding down it, if you have that kind of major). And that is a totally fine way to enjoy all of the above, if that is your end goal. But it certainly is not the only way, nor is it the best. Don't think of all of this as a 'college substitute'. Because while college is served to you on a silver platter, it is nothing more than circumstancial and temporary- your turn on the ride. Instead, I'd argue that the focused and deliberate approach to chasing the high is simply a more sustainable way to be happy.
