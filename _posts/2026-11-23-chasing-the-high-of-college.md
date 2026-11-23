@@ -12,7 +12,7 @@ A lot of people are nostalgic for their college days. They cite missing the craz
 
 The college environment is the perfect combination of everything a person could ever need to be satisfied and happy:
 
-- Being young and inexperienced and having the energy/being given the freedom to try new things.
+- Being young and inexperienced, and having the energy/being given the freedom to try new things.
 - As a young person, being surrounded by other young people constantly. Both new people and recurring faces. People are willing and able to connect platonically and romantically, and you tend to gravitate towards like-minded people too, so it is so easy to find 'your people' even as you grow and change.
 - Convenience, as everything you could want- companionship, necessities, third spaces- are all within walking distance. And the campuses are clean, green, and beautiful.
 - There is a structure you can choose to respect, oriented around daily routines like sleep, meals, classes, and extracurriculars.
