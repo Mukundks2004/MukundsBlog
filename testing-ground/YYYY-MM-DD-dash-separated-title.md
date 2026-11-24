@@ -13,6 +13,7 @@ Intro
 ## Topic
 
 some text
+
 - point one
 - point two
 - point three
