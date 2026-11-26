@@ -5,7 +5,7 @@ date: 2025-09-27 19:00:00 +1000
 categories: [University]
 tags: [university,uts,review,idea]
 image:
-    path: https://drupal.uts.edu.au/sites/default/files/styles/full_width_xxlarge_1x/public/2023-06/FEIT-banner-cadetships-4000px.jpg?itok=LGlJ2P2H
+    path: "https://www.sydney.edu.au/content/dam/people/students/_29i8991.jpg/jcr:content/renditions/cq5dam.web.800.533.2x.jpeg"
 ---
 
 I've been putting off writing this particular article for too long. The idea of writing about the cadetship is what inspired me to create this entire blog in the first place. And right now I'm not in the mood to do any research or deep thinking, but I do want to put some words on a page. This article is a positive review of my degree, the [UTS IDeA cadetship](https://www.uts.edu.au/for-students/admissions-entry/entry-schemes/engineering-and-information-technology-cadetship), that I am currently in the 3rd year of. The degree is one of kind in Australia and I was a part of the first intake starting in Feb 2023, scheduled to graduate in Nov 2026. Opinions on this non-traditional course of study are highly polarized. I have met both strong proponents of the degree and people that oppose it and are openly critical of it. Let me lay out all the facts before making my recommendation, as someone that knows the ins and outs of the degree better than almost anyone else.
