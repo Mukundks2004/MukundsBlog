@@ -5,7 +5,7 @@ date: 2025-10-02 18:00:00 +1000
 categories: [Technical]
 tags: [copilot,programming,llm,chat-gpt,shower-thought]
 image:
-    path: https://media.licdn.com/dms/image/v2/D4D12AQFzefGcGXYsMw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1712330807336?e=2147483647&v=beta&t=6VKh8fKTrcSH8nrDuyo3BGQAZbZ7H66lYNS8GnlJi6s
+    path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMXNc3F0s31hu0AiaOLA4zf0TVAMFQzR8fP-NV8TU4ZfrxZLdiWzz5Kvq6&s=10"
 ---
 
 So there's layers to outsourcing code right.

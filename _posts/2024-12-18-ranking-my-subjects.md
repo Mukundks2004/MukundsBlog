@@ -5,7 +5,7 @@ date: 2024-12-18 17:00:00 +1100
 categories: [University]
 tags: [subjects,university,ranking,review,programming,maths,sql,python,java,networks,linux,software,algorithms,computers,dotnet,interaction-design,business-requirements-modelling,database,application-development,uts,computer-science,degree]
 image:
-    path: https://i.postimg.cc/26MvQCxk/studying-background.webp
+    path: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqy0f4jRmtKLwq7seoYN5eNPLYsBWRvs302b_gPHn7SI4MHGNvnxTvHmY&s=10"
 ---
 
 A characteristic feature of being an IDeA cadet is the fact that the subjects you choose to study are for the most part limited. Coming to the end of my second year, I have had the opportunity to make roughly ONE choice between studying stats or comp sci this summer. This has dramatically boosted my ability to rank these subjects impartially. I hope that someone who finds themselves reading this at a time they have to make a difficult decision has that decision made easier.
@@ -13,6 +13,7 @@ A characteristic feature of being an IDeA cadet is the fact that the subjects yo
 ## The Critera
 
 Rankings will be based on one thing, how much I enjoyed the subject. It is ultimately a nebulous and subjective metric but I will reveal it is composed of:
+
 - How inaccessible the subject matter is to someone trying to learn it themselves vs how easy it is made (the ratio)
 - How much I learnt (more learning is better) and how useful I found the content afterwards
 - How well it was taught, points for both the tutor and lecturer
