@@ -2,7 +2,7 @@
 title: "Type Theory Part III: Verifying Formal Specifications"
 date: 2025-11-05 20:30:00 +1100
 
-categories: [Technical]
+categories: [Technical, Type Theory]
 tags: [lean,programming,maths,computer-science,technical,type-theory,leftpad,verification,formal-verification,formal-methods,proof]
 image:
     path: https://www.rmit.edu.au/content/dam/rmit/au/en/study-with-us-orderable/seo-info-pages/how-to-become/engineering/how-to-become-an-engineer-main-image-1220x732.jpg
@@ -23,19 +23,19 @@ Engineers, including software engineers, design solutions to problems. A core, c
 
 ## Writing Requirements
 
-Requirements look different depending on the domain of the problem- whether it is conceptual, related to product design, management, architecture, mechanical or manufactured systems, software, etc. On top of this, requirements can fall in different buckets such as business requirements, user requirements, functional/non functional requirements and constraints/limitations. Luckily for us, our domain is limited to a single self-contained software program so our requirements will be exclusively functional.
+Requirements look different depending on the domain of the problem- whether it is conceptual, related to product design, management, architecture, mechanical or manufactured systems, software, etc. On top of this, requirements can fall in different buckets such as business requirements, user requirements, functional/non functional requirements and constraints/limitations. Luckily for us, our domain is limited to a single, self-contained software program so our requirements will be exclusively functional.
 
 Writing out the requirements will feel mathemtical and algebraic- this is deliberate and the purpose of this is multifold. Firstly it is a nice logical progression from the previous exercise where our proofs *were* mathematical. Secondly, this makes requirements easy to both write out and prove since the observable/quantifiable effects of the program we will write are naturally mathematical, even though the program itself is not. Thirdly, any sufficiently defined system, no matter the domain, will have requirements that are logically algebraic. This is foundational to the field of [constraints programming](https://en.wikipedia.org/wiki/Constraint_satisfaction_problem), a conceptually related rigid/automated/computational variation of formal verification. In constraints programming, degrees of freedom and unknown variables are literally given variable identifiers and an attempt is made to 'resolve' the system or find a solution that satisfies the constraints and optionally simultaneously optimizes a cost function. This representation of a system with requirememts can be used to derive a canonical/normal form, useful for comparing systems and uncovering potential hidden isomoprhisms between different systems that have the same requirements. Although constraints programming is partially related to type theory through denotational semantics, it is beyond the scope of this article. Fourthly, mathematical definitions remove ambiguity, make the output clear and predictable, make testing easy, make communication of requirements easier and are beneficial in any area related to rigidity and clarity.
 
-The set of requirements is known as a specification or spec for short.
+The set of requirements is known as a specification, or 'spec' for short.
 
 ## Leftpad
 
-The program we are writing is known as leftpad. We'll be writing it in lean4. Leftpad is conceptually simple. TW: this is the informal, imprecise, non-rigorous definition to familiarize the reader preceding the actual definition. Leftpad is a program that accepts 3 parameters: a list of elements $$L$$, an element $$x$$, and a length $$n$$ (I tried to do this without introducing variables but it is really difficult and harder to communicate). Described in an imperative fashion, it returns $$L$$ after 'padding' it on the left with $$x$$ to make it $$n$$ long. Hence leftpad.
+The program we are writing is known as leftpad. We'll be writing it in lean4. Leftpad is conceptually simple. This is the non-rigorous definition to familiarise the reader preceding the actual definition. Leftpad is a program that accepts 3 parameters: a list of elements $$L$$, an element $$x$$, and a length $$n$$. It returns $$L$$ after 'padding' it on the left with $$x$$ to make it $$n$$ long. Hence leftpad.
 
 ### Some Leftpad History
 
-Despite being a trivial program to write in both imperative and functional styles, when leftpad functionality was required in node projects leftpad was commonly outsourced to the npm package '[left-pad](https://www.npmjs.com/package/left-pad)' rather than being implemented directly. In 2016, the left-pad package was taken down from the registry due to an argument and 1000s of projects that depended on it including [Babel](https://babeljs.io/) and [React](https://react.dev/) where unable to be built.
+Despite being a trivial program to write in both imperative and functional styles, when leftpad functionality was required in node projects, it was commonly outsourced to the npm package '[left-pad](https://www.npmjs.com/package/left-pad)' rather than being implemented directly. In 2016, `left-pad` was taken down from the registry due to an argument and 1000s of projects that depended on it including [Babel](https://babeljs.io/) and [React](https://react.dev/) where unable to be built.
 
 Since then, leftpad has been built into js itself under a new name. [You can read more about the incident here.](https://en.wikipedia.org/wiki/Npm_left-pad_incident)
 
@@ -48,10 +48,10 @@ Three things are required of a program to be leftpad. Using the variables above:
 2. The output ends with $$L$$
 3. Denote the length of $$L$$ by '$$k$$'. The output starts with $$n - k$$ copies of $$x$$, where $$-$$ is [natural subtraction](https://en.wikipedia.org/wiki/Monus#Natural_numbers).
 
-> We never specified anything regarding implementation details, only declarative rules. Leftpad carries imperative connotations, that there should be some kind of 'repeated padding' implying a loop or similar. But our specification does not include this. The leftpad solution (program) may not be unique. There may be many different programs that all satisfy the leftpad requirements, yet have measurably different outputs. We are indifferent to such distinctions, these hypothetical programs are equivalent 'up to leftpad'.
+> We never specified anything regarding implementation details, only declarative rules. Leftpad carries imperative connotations- that there should be some kind of 'repeated padding', implying a loop or similar. But our specification does not include this. The leftpad solution (program) may not be unique. There may be many different programs that all satisfy the leftpad requirements, yet have measurably different outputs. We are indifferent to such distinctions, these hypothetical programs are equivalent 'up to leftpad'.
 {: .prompt-info }
 
-While this spec is a great start and practically precise, it still uses the English language and there is arguably room for interpretation. Let us redo the previous section in lean for the pedants (me).
+While this spec is a great start and practically precise, it still uses the English language and there is arguably room for interpretation. Let's redo the previous section in lean.
 
 ## Infrastructure
 
@@ -88,7 +88,7 @@ inductive MyNat where
 
 ## The Naive Implementation
 
-Naively, leftpad repeats `x` $$n - k$$ times and puts it behind $$L$$. This requires being able to repeat an element to create a list, then application of this process to the result of natural subtraction. List concatenation must also be defined to combine this with $$L$$.
+Naively, leftpad repeats '`x`'' $$n - k$$ times and puts it before $$L$$. This requires being able to repeat an element to create a list, then apply this process to the result of natural subtraction. List concatenation must also be defined to combine this with $$L$$.
 
 ```lean
 def MyList.replicate {α : Type} : MyNat → α → MyList α
@@ -116,9 +116,9 @@ This marks the end of the beginning. The rest of the article will be about assem
 
 ## Tests vs Proofs
 
-How do we know our program has met the specification? Traditionally, developers would perform [TDD](https://en.wikipedia.org/wiki/Test-driven_development) and write [UT](https://en.wikipedia.org/wiki/Unit_testing), often before the actual implementation (analogous to how requirements are written before the system is built). This is a robust solution and still the industry standard. But it has the flaw of not ever ensuring complete coverage and of testing based on implementation and not based on requirements. [Gherkin](https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language) and [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) aim to, and arguably succeed at, solving the latter problem. But code coverage is still an issue. Other developments that have been made are [instrumentation](https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)) and runtime analysis to determine test coverage, which is a step better in theory but in the case of complex logic the burden is on the developer to find a way to test the path that has not been tested to slowly add tests and crawl to 100% coverage. Additionally, this only guarantees that all logical paths have been tested, not all possible inputs. [Property testing](https://en.wikipedia.org/wiki/Property_testing) solves this problem practically through a heuristic approach where many guesses are made with a huge array of input values- but even this does not ensure complete correctness. The only way to gurantee that, is with a [proof](https://en.wikipedia.org/wiki/Computer-assisted_proof).
+How do we know our program has met the specification? Traditionally, developers would perform [TDD](https://en.wikipedia.org/wiki/Test-driven_development) and write [UT](https://en.wikipedia.org/wiki/Unit_testing), often before the actual implementation (analogous to how requirements are written before the system is built). This is a robust solution and still the industry standard. But it has the flaw of not ever ensuring complete coverage and of testing based on implementation and not based on requirements. [Gherkin](https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language) and [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) aim to, and arguably succeed at, solving the latter problem. But code coverage is still an issue. Other developments that have been made are [instrumentation](https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)) and runtime analysis to determine test coverage, which is a step better in theory. But in the case of complex logic, the burden is on the developer to find a way to test the path that has not been tested to slowly add tests and crawl to 100% coverage. Additionally, this only guarantees that all logical paths have been tested, not all possible inputs. [Property testing](https://en.wikipedia.org/wiki/Property_testing) solves this problem practically through a heuristic approach where many guesses are made with a huge array of input values- but even this does not ensure complete correctness. The only way to gurantee that, is with a [proof](https://en.wikipedia.org/wiki/Computer-assisted_proof).
 
-Remember from the previous articles, by the Curry-Howard Correspondence we can consider a proposition proved by encoding it in a type and constructing a term of the type, or a 'witness'. We will now proceed to encode the spec into types in lean and run the type checker to verify our implementation is correct.
+Recall from the previous articles, by the Curry-Howard Correspondence we can consider a proposition proved by encoding it in a type and constructing a term of the type, or a 'witness'. We will now proceed to encode the spec into types in lean and run the type checker to verify our implementation is correct.
 
 ## The Specification (Round II)
 
@@ -188,7 +188,7 @@ def MyList.is_prefix_of {α : Type} [MyEq α] : MyList α → MyList α → MyBo
   | as, bs => (as.my_reverse).is_suffix_of (bs.my_reverse)
 ```
 
-We now have the tools to *define*, not prove, our spec. `sorry` is the lean placeholder for a proof that hasn't been written yet. It is effectively equal to showing an implication `P → Q` in place of `Q` straight up when `P`'s truth value is uncertain. Lean will type check `sorry`s with warnings. `sorry` speeds up development as I can `sorry` a lemma I am fairly confident is true when proving something that is much more unclear.
+We now have the tools to *define*, not prove, our spec. `sorry` is the lean placeholder for a proof that hasn't been written yet. It is effectively equal to providing an implication `P → Q` in place of `Q` straight up when `P`'s truth value is uncertain. Lean will type check `sorry`s with warnings. `sorry` speeds up development as I can `sorry` a lemma I am fairly confident is true when proving something that is much more unclear.
 
 ```lean
 theorem Leftpad.leftpad_length {α : Type} (n : MyNat) (x : α) (xs : MyList α) : (Leftpad.leftpad n x xs).my_length = n.my_max xs.my_length := by sorry
@@ -223,9 +223,9 @@ theorem Leftpad.leftpad_suffix {α : Type} [MyEq α] (n : MyNat) (x : α) (xs : 
 
 
 ## Applications
-Formally verifying software requirements as we have done is useful whenever there are non-negotiable needs that software must perform according to the spec. The more important the code is, the more useful formal methods like the above become- because there is a need to **guarantee** that the software is correct. Here are some real world examples of critical systems that have been verified- not all of them have been verified with type theory, but TT is the most expressive of the verification methods (tied with HOL) and easier to use than HOL when your proofs are oriented around programs, involving data structures and are not just mathematical statements.
+Formally verifying software requirements as we have done is useful whenever there are non-negotiable needs that software must perform according to the spec. The more important the code is, the more useful formal methods like the above become- because there is a need to **guarantee** that the software is correct. Here are some real world examples of critical systems that have been verified- not all of them have been verified with type theory, but TT is the most expressive of the verification methods (tied with HOL) and easier to use than HOL when your proofs are oriented around programs involving data structures and are not just mathematical statements.
 - [CompCert](https://www.absint.com/compcert/) is a formally verified optimizing C compiler. It was proven using [Rocq](https://en.wikipedia.org/wiki/Rocq) (a type theory based language). Stated on the website: "Its intended use is compiling safety-critical and mission-critical software written in C and meeting high levels of assurance."
-- [sel4](https://sel4.systems/Verification/) is a formally verified OS kernel. It was proven using [Isabelle](https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)) (a HOL based language). Stated on the website: "Its uniqueness lies in the formal mathematical proof that it behaves precisely as specified and enforces strong security boundaries for applications"
+- [sel4](https://sel4.systems/Verification/) is a formally verified OS kernel. It was proven using [Isabelle](https://en.wikipedia.org/wiki/Isabelle_(proof_assistant)) (a HOL-based language). Stated on the website: "Its uniqueness lies in the formal mathematical proof that it behaves precisely as specified and enforces strong security boundaries for applications"
 - NASA's [FRET](https://en.wikipedia.org/wiki/FRET_%28software%29) requirements engineering tool is built on the dependently typed language [PVS](https://en.wikipedia.org/wiki/Prototype_Verification_System)
 - Intel and ARM model hardware such as processors as [FSMs](https://en.wikipedia.org/wiki/Finite-state_machine) or [RTL abstractions](https://en.wikipedia.org/wiki/Register-transfer_level) and formally verify them as detailed [here](https://www.researchgate.net/publication/305253125_End-to-End_Verification_of_Processors_with_ISA-Formal)
 
