@@ -14,10 +14,15 @@
   date: "2026-11-27"
 
 - url: https://yunz.dev
-  description: Super unique portfolio
+  description: Super unique portfolio that belongs to a super unique dev
   date: "2026-11-27"
 
 - url: https://0melette.github.io/
   description: This site is home to many creative widgets 
   date: "2026-11-28"
+  favicon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><text y=%2224%22 font-size=%2232%22>🐟</text></svg>"
 
+- url: https://aparkgh.github.io/
+  description: This portfolio is made to look like an old windows 98 desktop
+  date: "2026-11-28"
+  favicon: "https://aparkgh.github.io/assets/icons/favicon-main.ico"
