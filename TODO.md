@@ -1,10 +1,30 @@
-# TODOs
+# TODO
 
 - add pic of mim ouraborous
 - add pic of rover to roseworthy
+- make tagline capitalised
+- fix readme -> put commands for building, workflows, etc. remove stuff that should be in "about" or "why i write" (fyi this file can be disorganised)
+- update to latest ruby and jekyll- does this make `--exclude _posts` work?
+- fix errors on build
+- turn todo.md from `-` to `[]`
+- confirm that sitemap, robots.txt, crawling, `<>` tags in the header with strings, all of that is up to date and in the readme.md and google account is linked
+- make sure all files are edited by initial commit or by a PR with a verified commit and a # and a PR link.
+- whats the command to generate just drafts or just one post (not most recent) and what does increment do and how can i speed up the building
+  - `bundle exec jekyll build --profile`
 
-## Articles
+## Songs
 
+This is just a collection of songs
+
+- we could be more than just part time lovers
+- hungry like the wolf
+- karma chameleon
+- brooklyn baby
+
+## Articles Ideas
+
+- how empty perth is all the time
+- holiday vs vacation
 - chess Markov chain for real life, forcing people into an option, every person is a chess engine
 - kalman filter and bayesian analysis, for how miriam toews can write about characters bigger than her
 - small story in a bigger context e.g. rainworld in the larger story, akira, etc. not just a universe, but the larger story is embedded in the smaller story
