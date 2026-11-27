@@ -3,17 +3,17 @@ title: A Dual-Tripartite Hoftsadter Isomorphism
 date: 2026-11-27 00:00:00 +1100
 
 categories: [Reflective]
-tags: [isomorphism,geb,douglas-hofstadter,hofstadter,music,dance,sheet-music,contemporary-dance,id,ego,superego,freud,psychology,meta]
+tags: [isomorphism,geb,douglas-hofstadter,hofstadter,music,dance,sheet-music,contemporary-dance,id,ego,superego,freud,psychology,meta,taylor,taylor-swift,new-romantics,music-analysis,analysis]
 image:
     path: "https://miro.medium.com/v2/1*ibTyRdWsGUMZ66LnLWATaA.jpeg"
 ---
 
 
-An isomorphism is a morphism $$f : A \to B$$ if there exists an inverse $$g : B \to A$$ such that $$f \circ g = Id_B$$ and $$g \circ f = Id_A$$.
+An isomorphism is any morphism $$f : A \to B$$ for which there exists an inverse $$g : B \to A$$ such that $$f \circ g = Id_B$$ and $$g \circ f = Id_A$$.
 
-In GEB, Hofstadter popularises a version of the isomorphism defined the following way: *The word isomorphism applies when two complex structures can be mapped onto each other, in such a way that to each part of one structure there is a corresponding part in the other structure, where 'corresponding' means that the two parts play similar roles in their respective structures*. Given the age of the book, the relative recency of category theory in popular mathematics, and Hofstadter's motivation, I don't think it is fair to criticise his definition on the basis that it is not rigorous. In fact, I like that he has a characteristic way he uses it in the book- as an information preserving transformation, with emphasis on the information preserving part. He famously exemplifies an isomorphism between pieces of music and record players. And another between the **pq** system and natural addition. Whenever I've needed a word for a similar correspondence- not quite a unambiguous one to one mapping, but two systems with noticeable duality and identical information, I think of GEB and of 'Hofstadter Isomorphisms'.
+In GEB, Hofstadter popularises a version of the isomorphism defined the following way: *The word isomorphism applies when two complex structures can be mapped onto each other, in such a way that to each part of one structure there is a corresponding part in the other structure, where 'corresponding' means that the two parts play similar roles in their respective structures*. Given the age of the book, the relative recency of category theory in popular mathematics, and Hofstadter's motivation, I don't think it is fair to criticise his definition on the basis that it is not rigorous. In fact, I like that he has a characteristic way he uses it in the book- as an information preserving transformation. He famously exemplifies an isomorphism between pieces of music and record players. And another between the **pq** system and natural addition. Whenever I've needed a word for a similar correspondence- not quite an unambiguous one-to-one mapping, but two systems with noticeable duality and identical information, I think of GEB and of 'Hofstadter Isomorphisms'.
 
-I want to introduce a three way Hofstadter Isomorphism in music, and then make the connection between this correspondence and a similar psychological correspondence I identify with- an isomorphism of isomorphisms.
+I want to introduce a three-way Hofstadter Isomorphism in music, and then make the connection between this correspondence and a similar psychological correspondence I identify with- an isomorphism of isomorphisms.
 
 The story begins in the car when you turn the radio on and change the station to KIIS 106.5. It's Taylor's *New Romantics*- a song that means a lot to you, and one you can't resist singing along to. The song is upbeat but the melody isn't so straightforward. The chorus comes on just as you merge onto the M5 and hit the gas to accelerate.
 
