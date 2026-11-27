@@ -1,0 +1,14 @@
+# - url: https://example.com # Use an absolute http:// or https:// URL
+#   description: Why this site matters to me. # Why did you add this site
+#   date: "2026-01-01" # Quote the date in YYYY-MM-DD format
+#   name: Example # (Optional) Title of site 'card'. By default url hostname is used.
+#   favicon: https://example.com/icon.png # (Optional) Displayed favicon, it can be local path. By default fetched from url/favicon.ico.
+
+- url: https://zaco.au
+  description: Tons of good maths resources
+  date: "2026-11-26"
+  favicon: https://zaco.au/assets/favicon.ico
+
+- url: https://oliverw10.github.io/
+  description: Awesome coding projects
+  date: "2026-11-27"
