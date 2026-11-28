@@ -149,6 +149,8 @@ pwa:
 
 paginate: 8
 
+sites_sort_newest_first: false
+
 # The base URL of your site
 baseurl: ""
 

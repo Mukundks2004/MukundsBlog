@@ -1,0 +1,80 @@
+.sites-list {
+  display: grid;
+  gap: 1rem;
+  padding: 0;
+  margin: 2rem 0;
+  list-style: none;
+}
+
+.sites-list-item {
+  list-style: none;
+}
+
+.site-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: var(--card-bg);
+  border: 1px solid var(--main-border-color);
+  border-radius: 0.75rem;
+}
+
+.site-icon {
+  position: relative;
+  display: grid;
+  flex: 0 0 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  color: var(--text-muted-color);
+  background: var(--main-bg);
+  border: 1px solid var(--main-border-color);
+  border-radius: 0.6rem;
+}
+
+.site-icon img {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+  background: var(--main-bg);
+}
+
+.site-icon img[hidden] {
+  display: none;
+}
+
+.site-details {
+  min-width: 0;
+}
+
+.content .site-title {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.site-external {
+  margin-left: 0.25rem;
+  color: var(--text-muted-color);
+  font-size: 0.7rem;
+}
+
+.content .site-description {
+  margin: 0.4rem 0 0.6rem;
+}
+
+.site-meta,
+.site-empty {
+  color: var(--text-muted-color);
+  font-size: 0.85rem;
+}
+
+.site-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.site-domain {
+  overflow-wrap: anywhere;
+}

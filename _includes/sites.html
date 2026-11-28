@@ -1,0 +1,81 @@
+<link rel="stylesheet" href="{{ '/assets/css/sites.css' | relative_url }}">
+
+{% assign date_groups = site.data.sites | group_by: 'date' | sort: 'name' %}
+
+{% if site.sites_sort_newest_first %}
+  {% assign date_groups = date_groups | reverse %}
+{% endif %}
+
+{% if date_groups.size > 0 %}
+  <ul class="sites-list">
+
+    {% for date_group in date_groups %}
+      {% assign site_names = '' | split: '' %}
+
+      {% for item in date_group.items %}
+        {% assign origin_parts = item.url | split: '://' %}
+        {% assign domain = origin_parts[1] | split: '/' | first | split: '?' | first | split: '#' | first %}
+        {% assign item_name = item.name | default: domain %}
+        {% assign site_names = site_names | push: item_name %}
+      {% endfor %}
+
+      {% assign site_names = site_names | uniq | sort_natural %}
+
+      {% for site_name in site_names %}
+
+        {% for item in date_group.items %}
+          {% assign origin_parts = item.url | split: '://' %}
+          {% assign domain = origin_parts[1] | split: '/' | first | split: '?' | first | split: '#' | first %}
+          {% assign item_name = item.name | default: domain %}
+
+          {% if item_name != site_name %}
+            {% continue %}
+          {% endif %}
+
+          {% assign origin = origin_parts[0] | append: '://' | append: domain %}
+          {% assign favicon = item.favicon | default: '/favicon.ico' %}
+
+          {% if item.favicon %}
+            {% if favicon contains '://' %}
+              {% assign favicon_url = favicon %}
+            {% else %}
+              {% assign favicon_url = favicon | relative_url %}
+            {% endif %}
+          {% else %}
+            {% assign favicon_url = origin | append: favicon %}
+          {% endif %}
+
+          <li class="sites-list-item">
+            <article class="site-card">
+
+              <div class="site-icon" aria-hidden="true">
+                <i class="fas fa-globe"></i>
+                {% comment %}The newline keeps Chirpy's content refactor from turning this decorative icon into a lightbox link.{% endcomment %}
+                <img
+                  src="{{ favicon_url | escape }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.hidden=true">
+              </div>
+
+              <div class="site-details">
+                <h2 class="site-title">
+                  <a href="{{ item.url | escape }}">{{ item_name | escape }}</a>
+                  <i class="fas fa-arrow-up-right-from-square site-external" aria-hidden="true"></i>
+                </h2>
+
+                <p class="site-description">{{ item.description | escape }}</p>
+                
+                <div class="site-meta">
+                  <span class="site-domain">{{ domain | escape }}</span>
+                  <span aria-hidden="true">&middot;</span>
+                  <span>Added <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %-d, %Y' }}</time></span>
+                </div>
+              </div>
+            </article>
+          </li>
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
+
+{% else %}
+  <p class="site-empty">No sites have been added yet.</p>
+{% endif %}

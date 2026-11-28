@@ -1,0 +1,28 @@
+# - url: https://example.com # Use an absolute http:// or https:// URL
+#   description: Why this site matters to me. # Why did you add this site
+#   date: "2026-01-01" # Quote the date in YYYY-MM-DD format
+#   name: Example # (Optional) Title of site 'card'. By default url hostname is used.
+#   favicon: https://example.com/icon.png # (Optional) Displayed favicon, it can be local path. By default fetched from url/favicon.ico.
+
+- url: https://zaco.au
+  description: Tons of good maths resources
+  date: "2026-11-26"
+  favicon: https://zaco.au/assets/favicon.ico
+
+- url: https://oliverw10.github.io
+  description: Variety of coding projects and games
+  date: "2026-11-27"
+
+- url: https://yunz.dev
+  description: Super unique portfolio that belongs to a super unique dev
+  date: "2026-11-27"
+
+- url: https://0melette.github.io/
+  description: This site is home to many creative widgets 
+  date: "2026-11-28"
+  favicon: "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><text y=%2224%22 font-size=%2232%22>🐟</text></svg>"
+
+- url: https://aparkgh.github.io/
+  description: This portfolio is made to look like an old windows 98 desktop
+  date: "2026-11-28"
+  favicon: "https://aparkgh.github.io/assets/icons/favicon-main.ico"
